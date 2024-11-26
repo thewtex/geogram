@@ -49,8 +49,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   llex.c
   lmathlib.c
   lmem.c
-  loadlib.c
   lobject.c
+  loadlib.c
   lopcodes.c
   loslib.c
   lparser.c
