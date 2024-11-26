@@ -21,8 +21,8 @@
 [ 11%] Building CXX object src/lib/geogram/third_party/CMakeFiles/geogram_third_party.dir/PoissonRecon/poisson_geogram.cpp.o
 [ 11%] Building CXX object src/lib/geogram/third_party/CMakeFiles/geogram_third_party.dir/xatlas/xatlas.cpp.o
 [ 11%] Built target geogram_third_party
-[ 12%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/android_utils.cpp.o
 [ 12%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/algorithm.cpp.o
+[ 12%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/android_utils.cpp.o
 [ 13%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/assert.cpp.o
 [ 13%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/attributes.cpp.o
 [ 14%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/b_stream.cpp.o
@@ -96,114 +96,114 @@
 [ 48%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/periodic_delaunay_3d.cpp.o
 [ 48%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/voronoi/CVT.cpp.o
 /home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp: In member function ‘std::string GEO::PeriodicDelaunay3d::Stats::to_string_raw() const’:
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4428:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘long unsigned int’ [-Wformat=]
- 4428 |             "%f %f %f %f %d %d %d %f %d %f %f %f %d",
-      |                          ~^
-      |                           |
-      |                           int
-      |                          %ld
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4424:35: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘long unsigned int’ [-Wformat=]
+ 4424 |             "%.1f %.1f %.1f %.1f %d %d %d %.1f %d %.1f %.1f %.1f %d",
+      |                                  ~^
+      |                                   |
+      |                                   int
+      |                                  %ld
 ......
- 4434 |             phase_I_nb_inside_, phase_I_nb_cross_,
-      |             ~~~~~~~~~~~~~~~~~~
+ 4430 |             phase_I_nb_inside_, phase_I_nb_cross_,
+      |             ~~~~~~~~~~~~~~~~~~     
       |             |
       |             long unsigned int
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4428:30: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘long unsigned int’ [-Wformat=]
- 4428 |             "%f %f %f %f %d %d %d %f %d %f %f %f %d",
-      |                             ~^
-      |                              |
-      |                              int
-      |                             %ld
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4424:38: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘long unsigned int’ [-Wformat=]
+ 4424 |             "%.1f %.1f %.1f %.1f %d %d %d %.1f %d %.1f %.1f %.1f %d",
+      |                                     ~^
+      |                                      |
+      |                                      int
+      |                                     %ld
 ......
- 4434 |             phase_I_nb_inside_, phase_I_nb_cross_,
+ 4430 |             phase_I_nb_inside_, phase_I_nb_cross_,
       |                                 ~~~~~~~~~~~~~~~~~
       |                                 |
       |                                 long unsigned int
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4428:33: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘long unsigned int’ [-Wformat=]
- 4428 |             "%f %f %f %f %d %d %d %f %d %f %f %f %d",
-      |                                ~^
-      |                                 |
-      |                                 int
-      |                                %ld
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4424:41: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘long unsigned int’ [-Wformat=]
+ 4424 |             "%.1f %.1f %.1f %.1f %d %d %d %.1f %d %.1f %.1f %.1f %d",
+      |                                        ~^
+      |                                         |
+      |                                         int
+      |                                        %ld
 ......
- 4435 |             phase_I_nb_outside_, phase_I_insert_t_, phase_I_insert_nb_,
-      |             ~~~~~~~~~~~~~~~~~~~  
+ 4431 |             phase_I_nb_outside_, phase_I_insert_t_, phase_I_insert_nb_,
+      |             ~~~~~~~~~~~~~~~~~~~          
       |             |
       |             long unsigned int
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4428:39: warning: format ‘%d’ expects argument of type ‘int’, but argument 10 has type ‘long unsigned int’ [-Wformat=]
- 4428 |             "%f %f %f %f %d %d %d %f %d %f %f %f %d",
-      |                                      ~^
-      |                                       |
-      |                                       int
-      |                                      %ld
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4424:49: warning: format ‘%d’ expects argument of type ‘int’, but argument 10 has type ‘long unsigned int’ [-Wformat=]
+ 4424 |             "%.1f %.1f %.1f %.1f %d %d %d %.1f %d %.1f %.1f %.1f %d",
+      |                                                ~^
+      |                                                 |
+      |                                                 int
+      |                                                %ld
 ......
- 4435 |             phase_I_nb_outside_, phase_I_insert_t_, phase_I_insert_nb_,
+ 4431 |             phase_I_nb_outside_, phase_I_insert_t_, phase_I_insert_nb_,
       |                                                     ~~~~~~~~~~~~~~~~~~
       |                                                     |
       |                                                     long unsigned int
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4428:51: warning: format ‘%d’ expects argument of type ‘int’, but argument 14 has type ‘long unsigned int’ [-Wformat=]
- 4428 |             "%f %f %f %f %d %d %d %f %d %f %f %f %d",
-      |                                                  ~^
-      |                                                   |
-      |                                                   int
-      |                                                  %ld
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4424:67: warning: format ‘%d’ expects argument of type ‘int’, but argument 14 has type ‘long unsigned int’ [-Wformat=]
+ 4424 |             "%.1f %.1f %.1f %.1f %d %d %d %.1f %d %.1f %.1f %.1f %d",
+      |                                                                  ~^
+      |                                                                   |
+      |                                                                   int
+      |                                                                  %ld
 ......
- 4438 |             phase_II_insert_nb_
-      |             ~~~~~~~~~~~~~~~~~~~                    
+ 4434 |             phase_II_insert_nb_
+      |             ~~~~~~~~~~~~~~~~~~~                                    
       |             |
       |             long unsigned int
 /home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp: In member function ‘std::string GEO::PeriodicDelaunay3d::Stats::to_string_pretty() const’:
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4447:61: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘long unsigned int’ [-Wformat=]
- 4447 |             "phaseI  | t:%.1f t_cls:%.1f t_ins:%.1f nb_ins:%d\n"
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4443:61: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘long unsigned int’ [-Wformat=]
+ 4443 |             "phaseI  | t:%.1f t_cls:%.1f t_ins:%.1f nb_ins:%d\n"
       |                                                            ~^
       |                                                             |
       |                                                             int
       |                                                            %ld
 ......
- 4455 |             phase_I_insert_t_, phase_I_insert_nb_,
+ 4451 |             phase_I_insert_t_, phase_I_insert_nb_,
       |                                ~~~~~~~~~~~~~~~~~~            
       |                                |
       |                                long unsigned int
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4448:30: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘long unsigned int’ [-Wformat=]
- 4448 |             "        |   in:%d bndry:%d out:%d\n"
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4444:30: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘long unsigned int’ [-Wformat=]
+ 4444 |             "        |   in:%d bndry:%d out:%d\n"
       |                             ~^
       |                              |
       |                              int
       |                             %ld
 ......
- 4456 |             phase_I_nb_inside_, phase_I_nb_cross_, phase_I_nb_outside_,
+ 4452 |             phase_I_nb_inside_, phase_I_nb_cross_, phase_I_nb_outside_,
       |             ~~~~~~~~~~~~~~~~~~
       |             |
       |             long unsigned int
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4448:39: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘long unsigned int’ [-Wformat=]
- 4448 |             "        |   in:%d bndry:%d out:%d\n"
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4444:39: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘long unsigned int’ [-Wformat=]
+ 4444 |             "        |   in:%d bndry:%d out:%d\n"
       |                                      ~^
       |                                       |
       |                                       int
       |                                      %ld
 ......
- 4456 |             phase_I_nb_inside_, phase_I_nb_cross_, phase_I_nb_outside_,
+ 4452 |             phase_I_nb_inside_, phase_I_nb_cross_, phase_I_nb_outside_,
       |                                 ~~~~~~~~~~~~~~~~~
       |                                 |
       |                                 long unsigned int
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4448:46: warning: format ‘%d’ expects argument of type ‘int’, but argument 10 has type ‘long unsigned int’ [-Wformat=]
- 4448 |             "        |   in:%d bndry:%d out:%d\n"
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4444:46: warning: format ‘%d’ expects argument of type ‘int’, but argument 10 has type ‘long unsigned int’ [-Wformat=]
+ 4444 |             "        |   in:%d bndry:%d out:%d\n"
       |                                             ~^
       |                                              |
       |                                              int
       |                                             %ld
 ......
- 4456 |             phase_I_nb_inside_, phase_I_nb_cross_, phase_I_nb_outside_,
+ 4452 |             phase_I_nb_inside_, phase_I_nb_cross_, phase_I_nb_outside_,
       |                                                    ~~~~~~~~~~~~~~~~~~~
       |                                                    |
       |                                                    long unsigned int
-/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4449:61: warning: format ‘%d’ expects argument of type ‘int’, but argument 14 has type ‘long unsigned int’ [-Wformat=]
- 4449 |             "phaseII | t:%.1f t_cls:%.1f t_ins:%.1f nb_ins:%d",
+/home/runner/work/geogram/geogram/src/lib/geogram/delaunay/periodic_delaunay_3d.cpp:4445:61: warning: format ‘%d’ expects argument of type ‘int’, but argument 14 has type ‘long unsigned int’ [-Wformat=]
+ 4445 |             "phaseII | t:%.1f t_cls:%.1f t_ins:%.1f nb_ins:%d",
       |                                                            ~^
       |                                                             |
       |                                                             int
       |                                                            %ld
 ......
- 4459 |             phase_II_insert_t_, phase_II_insert_nb_
+ 4455 |             phase_II_insert_t_, phase_II_insert_nb_
       |                                 ~~~~~~~~~~~~~~~~~~~          
       |                                 |
       |                                 long unsigned int
@@ -256,9 +256,9 @@
 [ 70%] Building CXX object src/bin/vorpastat/CMakeFiles/vorpastat.dir/main.cpp.o
 [ 70%] Building CXX object src/bin/vorpacomp/CMakeFiles/vorpacomp.dir/main.cpp.o
 [ 71%] Linking CXX executable ../../../bin/vorpacomp
-[ 71%] Built target vorpacomp
-[ 72%] Building CXX object src/bin/geodump/CMakeFiles/geodump.dir/main.cpp.o
-[ 73%] Linking CXX executable ../../../bin/vorpastat
+[ 72%] Linking CXX executable ../../../bin/vorpastat
+[ 72%] Built target vorpacomp
+[ 73%] Building CXX object src/bin/geodump/CMakeFiles/geodump.dir/main.cpp.o
 [ 73%] Built target vorpastat
 [ 73%] Building CXX object src/bin/vorpalite/CMakeFiles/vorpalite.dir/main.cpp.o
 [ 73%] Linking CXX executable ../../../bin/geodump
@@ -276,29 +276,29 @@
 [ 78%] Building CXX object src/tests/bench_load/CMakeFiles/bench_load.dir/main.cpp.o
 [ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_search.cpp.o
 [ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_tree.cpp.o
-[ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/brute.cpp.o
 [ 79%] Linking CXX executable ../../../bin/bench_load
 [ 79%] Built target bench_load
 [ 80%] Building CXX object src/tests/test_locks/CMakeFiles/test_locks.dir/main.cpp.o
+[ 80%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/brute.cpp.o
 [ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_dump.cpp.o
-[ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_fix_rad_search.cpp.o
 [ 81%] Linking CXX executable ../../../bin/test_locks
+[ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_fix_rad_search.cpp.o
 [ 81%] Built target test_locks
 [ 82%] Building CXX object src/tests/test_expansion_nt/CMakeFiles/test_expansion_nt.dir/main.cpp.o
 [ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_pr_search.cpp.o
-[ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
 [ 83%] Linking CXX executable ../../../bin/test_expansion_nt
 [ 83%] Built target test_expansion_nt
 [ 84%] Building CXX object src/tests/test_HLBFGS/CMakeFiles/test_HLBFGS.dir/main.cpp.o
+[ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
 [ 84%] Linking CXX executable ../../../bin/test_HLBFGS
 [ 84%] Built target test_HLBFGS
 [ 85%] Building CXX object src/tests/test_RVC/CMakeFiles/test_RVC.dir/main.cpp.o
 [ 86%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_split.cpp.o
 [ 86%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_tree.cpp.o
 [ 87%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_util.cpp.o
-[ 87%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/perf.cpp.o
 [ 87%] Linking CXX executable ../../../bin/test_RVC
 [ 87%] Built target test_RVC
+[ 87%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/perf.cpp.o
 [ 88%] Building CXX object src/tests/test_logger/CMakeFiles/test_logger.dir/main.cpp.o
 [ 89%] Linking CXX executable ../../../bin/test_nn_search
 [ 89%] Built target test_nn_search
@@ -313,9 +313,9 @@
 [ 92%] Built target compute_delaunay
 [ 93%] Building CXX object src/examples/geogram/compute_CSG/CMakeFiles/compute_CSG.dir/main.cpp.o
 [ 93%] Linking CXX executable ../../../../bin/compute_CSG
-[ 93%] Linking CXX executable ../../../../bin/compute_RVD
 [ 93%] Built target compute_CSG
 [ 94%] Building CXX object src/examples/geogram/opennl_LSCM/CMakeFiles/opennl_LSCM.dir/main.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/compute_RVD
 [ 94%] Built target compute_RVD
 [ 95%] Building CXX object src/examples/geogram/opennl_mesh_smooth/CMakeFiles/opennl_mesh_smooth.dir/main.cpp.o
 [ 95%] Linking CXX executable ../../../../bin/opennl_LSCM
@@ -330,10 +330,10 @@
 [ 98%] Linking CXX executable ../../../../bin/manifold_harmonics
 [ 98%] Built target manifold_harmonics
 [ 99%] Building CXX object src/examples/geogram/boolean_operations/CMakeFiles/boolean_op.dir/main.cpp.o
+[ 99%] Linking CXX executable ../../../../bin/boolean_op
 [ 99%] Linking CXX executable ../../../../bin/simple_raytrace
-[ 99%] Built target simple_raytrace
+[ 99%] Built target boolean_op
 [100%] Building CXX object src/examples/geogram/intersect/CMakeFiles/intersect.dir/main.cpp.o
-[100%] Linking CXX executable ../../../../bin/boolean_op
-[100%] Built target boolean_op
+[100%] Built target simple_raytrace
 [100%] Linking CXX executable ../../../../bin/intersect
 [100%] Built target intersect

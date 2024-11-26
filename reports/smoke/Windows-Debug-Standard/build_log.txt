@@ -507,8 +507,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   cdotu.c
   cgbmv.c
   cgemm.c
-  cgerc.c
   cgemv.c
+  cgerc.c
   cgeru.c
   chbmv.c
   chemm.c
@@ -613,8 +613,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   stpsv.c
   strmm.c
   strmv.c
-  strsm.c
   strsv.c
+  strsm.c
   xerbla.c
   xerbla_array.c
   zaxpy.c
