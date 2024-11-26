@@ -257,8 +257,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   input.c
   monitor.c
   platform.c
-  window.c
   vulkan.c
+  window.c
   egl_context.c
   osmesa_context.c
   null_init.c
@@ -443,8 +443,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   libf2c_pow_hh.c
   libf2c_pow_ii.c
   libf2c_pow_ri.c
-  libf2c_pow_zz.c
   libf2c_pow_zi.c
+  libf2c_pow_zz.c
   libf2c_r_abs.c
   libf2c_r_acos.c
   libf2c_r_asin.c
