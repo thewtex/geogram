@@ -892,8 +892,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   relax_snode.c
   scolumn_bmod.c
   scolumn_dfs.c
-  scomplex.c
   scopy_to_ucol.c
+  scomplex.c
   scsum1.c
   sdiagonal.c
   sgscon.c
