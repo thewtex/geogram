@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/intersect remove_internal_shells=true /home/runner/work/geogram/geogram/tests/data/Intersections/classif_1.obj</line>
 </preamble>
 
-<pid>13507</pid>
-<ppid>6444</ppid>
+<pid>13565</pid>
+<ppid>6457</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -42,7 +42,7 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:12.698 </time>
+  <time>00:00:00:12.526 </time>
 </status>
 
 <error>
@@ -81,7 +81,7 @@
       <fn>std::basic_ostream&lt;char, std::char_traits&lt;char&gt; &gt;&amp; std::__ostream_insert&lt;char, std::char_traits&lt;char&gt; &gt;(std::basic_ostream&lt;char, std::char_traits&lt;char&gt; &gt;&amp;, char const*, long)</fn>
     </frame>
     <frame>
-      <ip>0x4BD0B4E</ip>
+      <ip>0x4BD0ADE</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>GEO::MeshSurfaceIntersection::intersect_remesh_intersections(GEO::vector&lt;GEO::IsectInfo&gt;&amp;)::{lambda(unsigned long, unsigned long)#2}::operator()(unsigned long, unsigned long) const</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/mesh</dir>
@@ -89,7 +89,7 @@
       <line>652</line>
     </frame>
     <frame>
-      <ip>0x4BDF40C</ip>
+      <ip>0x4BDF39C</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>std::_Function_handler&lt;void (unsigned long, unsigned long), GEO::MeshSurfaceIntersection::intersect_remesh_intersections(GEO::vector&lt;GEO::IsectInfo&gt;&amp;)::{lambda(unsigned long, unsigned long)#2}&gt;::_M_invoke(std::_Any_data const&amp;, unsigned long&amp;&amp;, std::_Any_data const&amp;)</fn>
       <dir>/usr/include/c++/9/bits</dir>
