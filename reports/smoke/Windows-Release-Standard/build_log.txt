@@ -771,8 +771,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   clapack_zlange.c
   clapack_zlanhs.c
   clapack_zlarf.c
-  clapack_zlarfg.c
   clapack_zlarfp.c
+  clapack_zlarfg.c
   clapack_zlarnv.c
   clapack_zlartg.c
   clapack_zlascl.c
@@ -795,8 +795,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   cgsitrf.c
   cgsrfs.c
   cgssv.c
-  cgssvx.c
   cgstrf.c
+  cgssvx.c
   cgstrs.c
   clacon2.c
   clangs.c
