@@ -623,8 +623,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   zdotu.c
   zdrot.c
   zdscal.c
-  zgbmv.c
   zgemm.c
+  zgbmv.c
   zgemv.c
   zgerc.c
   zgeru.c
