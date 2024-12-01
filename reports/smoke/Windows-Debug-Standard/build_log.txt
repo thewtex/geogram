@@ -361,8 +361,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   libf2c_d_asin.c
   libf2c_d_atan.c
   libf2c_d_atn2.c
-  libf2c_d_cnjg.c
   libf2c_d_cos.c
+  libf2c_d_cnjg.c
   libf2c_d_cosh.c
   libf2c_d_dim.c
   libf2c_d_exp.c
