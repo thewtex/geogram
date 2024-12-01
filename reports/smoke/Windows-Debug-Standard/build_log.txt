@@ -897,8 +897,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   scsum1.c
   sdiagonal.c
   sgscon.c
-  sgsequ.c
   sgsisx.c
+  sgsequ.c
   sgsitrf.c
   sgsrfs.c
   sgssv.c
