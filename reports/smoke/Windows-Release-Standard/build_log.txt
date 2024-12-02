@@ -24,8 +24,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   gzlib.c
   gzread.c
   gzwrite.c
-  infback.c
   inffast.c
+  infback.c
   inflate.c
   inftrees.c
   trees.c
@@ -623,8 +623,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   zdotu.c
   zdrot.c
   zdscal.c
-  zgemm.c
   zgbmv.c
+  zgemm.c
   zgemv.c
   zgerc.c
   zgeru.c
