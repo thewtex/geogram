@@ -827,8 +827,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   dgsequ.c
   dgsisx.c
   dgsitrf.c
-  dgsrfs.c
   dgssv.c
+  dgsrfs.c
   dgssvx.c
   dgstrf.c
   dgstrs.c
