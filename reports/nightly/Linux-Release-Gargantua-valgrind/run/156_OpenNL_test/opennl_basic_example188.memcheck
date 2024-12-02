@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/opennl_basic_example</line>
 </preamble>
 
-<pid>12811</pid>
-<ppid>6764</ppid>
+<pid>12736</pid>
+<ppid>6479</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -34,7 +34,7 @@
 
 <status>
   <state>RUNNING</state>
-  <time>00:00:00:00.021 </time>
+  <time>00:00:00:00.022 </time>
 </status>
 
 <error>
@@ -44,17 +44,17 @@
   <what>Invalid read of size 8</what>
   <stack>
     <frame>
-      <ip>0x4CDC0B9</ip>
+      <ip>0x4CDCB49</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlCRSMatrixComputeSlices</fn>
     </frame>
     <frame>
-      <ip>0x4CDD25B</ip>
+      <ip>0x4CDDCEB</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlCRSMatrixNewFromSparseMatrix</fn>
     </frame>
     <frame>
-      <ip>0x4CDD620</ip>
+      <ip>0x4CDE0B0</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlMatrixCompress</fn>
     </frame>
@@ -79,7 +79,7 @@
       <fn>main</fn>
     </frame>
   </stack>
-  <auxwhat>Address 0x54b6978 is 0 bytes after a block of size 24 alloc'd</auxwhat>
+  <auxwhat>Address 0x54b7978 is 0 bytes after a block of size 24 alloc'd</auxwhat>
   <stack>
     <frame>
       <ip>0x483DD99</ip>
@@ -87,17 +87,17 @@
       <fn>calloc</fn>
     </frame>
     <frame>
-      <ip>0x4CDBDFF</ip>
+      <ip>0x4CDC88F</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlCRSMatrixConstruct</fn>
     </frame>
     <frame>
-      <ip>0x4CDD27C</ip>
+      <ip>0x4CDDD0C</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlCRSMatrixNewFromSparseMatrix</fn>
     </frame>
     <frame>
-      <ip>0x4CDD620</ip>
+      <ip>0x4CDE0B0</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlMatrixCompress</fn>
     </frame>
@@ -127,7 +127,7 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:05.567 </time>
+  <time>00:00:00:05.491 </time>
 </status>
 
 <errorcounts>
