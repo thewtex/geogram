@@ -32,8 +32,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   attributes.cpp
   b_stream.cpp
   boolean_expression.cpp
-  command_line.cpp
   command_line_args.cpp
+  command_line.cpp
   common.cpp
   counted.cpp
   debug_stream.cpp
