@@ -12,7 +12,7 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/opennl_basic_example</line>
 </preamble>
 
-<pid>12736</pid>
+<pid>12729</pid>
 <ppid>6479</ppid>
 <tool>memcheck</tool>
 
@@ -44,17 +44,17 @@
   <what>Invalid read of size 8</what>
   <stack>
     <frame>
-      <ip>0x4CDCB49</ip>
+      <ip>0x4CDCB59</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlCRSMatrixComputeSlices</fn>
     </frame>
     <frame>
-      <ip>0x4CDDCEB</ip>
+      <ip>0x4CDDCFB</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlCRSMatrixNewFromSparseMatrix</fn>
     </frame>
     <frame>
-      <ip>0x4CDE0B0</ip>
+      <ip>0x4CDE0C0</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlMatrixCompress</fn>
     </frame>
@@ -87,17 +87,17 @@
       <fn>calloc</fn>
     </frame>
     <frame>
-      <ip>0x4CDC88F</ip>
+      <ip>0x4CDC89F</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlCRSMatrixConstruct</fn>
     </frame>
     <frame>
-      <ip>0x4CDDD0C</ip>
+      <ip>0x4CDDD1C</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlCRSMatrixNewFromSparseMatrix</fn>
     </frame>
     <frame>
-      <ip>0x4CDE0B0</ip>
+      <ip>0x4CDE0C0</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>nlMatrixCompress</fn>
     </frame>
@@ -127,7 +127,7 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:05.491 </time>
+  <time>00:00:00:05.020 </time>
 </status>
 
 <errorcounts>

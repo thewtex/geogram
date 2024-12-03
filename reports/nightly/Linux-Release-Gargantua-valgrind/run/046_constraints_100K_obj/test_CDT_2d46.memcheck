@@ -12,7 +12,7 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/test_CDT_2d delaunay=false /home/runner/work/geogram/geogram/tests/data/CDT2d/constraints_100K.obj</line>
 </preamble>
 
-<pid>6641</pid>
+<pid>6639</pid>
 <ppid>6479</ppid>
 <tool>memcheck</tool>
 
@@ -46,32 +46,32 @@
   <what>Conditional jump or move depends on uninitialised value(s)</what>
   <stack>
     <frame>
-      <ip>0x4D53D4A</ip>
+      <ip>0x4D53D5A</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>fill_window</fn>
     </frame>
     <frame>
-      <ip>0x4D54A0F</ip>
+      <ip>0x4D54A1F</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>deflate_fast</fn>
     </frame>
     <frame>
-      <ip>0x4D55573</ip>
+      <ip>0x4D55583</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>deflate.part.0</fn>
     </frame>
     <frame>
-      <ip>0x4D5A264</ip>
+      <ip>0x4D5A274</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>gz_comp</fn>
     </frame>
     <frame>
-      <ip>0x4D5A4B4</ip>
+      <ip>0x4D5A4C4</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>gz_write</fn>
     </frame>
     <frame>
-      <ip>0x4D5A609</ip>
+      <ip>0x4D5A619</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>gzwrite</fn>
     </frame>
@@ -111,11 +111,11 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:06.411 </time>
+  <time>00:00:00:06.792 </time>
 </status>
 
 <error>
-  <unique>0x90</unique>
+  <unique>0x92</unique>
   <tid>1</tid>
   <kind>Leak_DefinitelyLost</kind>
   <xwhat>
@@ -159,7 +159,7 @@
 
 <errorcounts>
   <pair>
-    <count>143</count>
+    <count>145</count>
     <unique>0x0</unique>
   </pair>
 </errorcounts>
