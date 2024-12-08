@@ -416,8 +416,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   libf2c_i_abs.c
   libf2c_i_ceiling.c
   libf2c_i_dim.c
-  libf2c_i_dnnt.c
   libf2c_i_indx.c
+  libf2c_i_dnnt.c
   libf2c_i_len.c
   libf2c_i_len_trim.c
   libf2c_i_mod.c
