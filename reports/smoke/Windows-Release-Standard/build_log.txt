@@ -45,8 +45,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   lfunc.c
   lgc.c
   linit.c
-  liolib.c
   llex.c
+  liolib.c
   lmathlib.c
   lmem.c
   loadlib.c
