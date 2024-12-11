@@ -811,8 +811,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   cpivotgrowth.c
   cpruneL.c
   creadhb.c
-  creadrb.c
   creadtriple.c
+  creadrb.c
   csnode_bmod.c
   csnode_dfs.c
   csp_blas2.c
@@ -872,8 +872,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   ilu_relax_snode.c
   ilu_scolumn_dfs.c
   ilu_scopy_to_ucol.c
-  ilu_sdrop_row.c
   ilu_spanel_dfs.c
+  ilu_sdrop_row.c
   ilu_spivotL.c
   ilu_ssnode_dfs.c
   ilu_zcolumn_dfs.c
