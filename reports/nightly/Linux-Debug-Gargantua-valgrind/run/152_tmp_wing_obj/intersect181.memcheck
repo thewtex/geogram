@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/intersect remove_internal_shells=true /home/runner/work/geogram/geogram/tests/data/Intersections/tmp_wing.obj</line>
 </preamble>
 
-<pid>14337</pid>
-<ppid>6450</ppid>
+<pid>14299</pid>
+<ppid>6409</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -42,7 +42,7 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:25.481 </time>
+  <time>00:00:00:25.493 </time>
 </status>
 
 <error>
@@ -86,7 +86,7 @@
       <fn>std::basic_ostream&lt;char, std::char_traits&lt;char&gt; &gt;&amp; std::operator&lt;&lt; &lt;std::char_traits&lt;char&gt; &gt;(std::basic_ostream&lt;char, std::char_traits&lt;char&gt; &gt;&amp;, char const*)</fn>
     </frame>
     <frame>
-      <ip>0x49F6BEB</ip>
+      <ip>0x49F671D</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>GEO::Logger::out(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;)</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -94,7 +94,7 @@
       <line>437</line>
     </frame>
     <frame>
-      <ip>0x4BD1A38</ip>
+      <ip>0x4BD15C0</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>GEO::MeshSurfaceIntersection::intersect_remesh_intersections(GEO::vector&lt;GEO::IsectInfo&gt;&amp;)::{lambda(unsigned long, unsigned long)#2}::operator()(unsigned long, unsigned long) const</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/mesh</dir>
@@ -102,7 +102,7 @@
       <line>647</line>
     </frame>
     <frame>
-      <ip>0x4BE0398</ip>
+      <ip>0x4BDFF20</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>std::_Function_handler&lt;void (unsigned long, unsigned long), GEO::MeshSurfaceIntersection::intersect_remesh_intersections(GEO::vector&lt;GEO::IsectInfo&gt;&amp;)::{lambda(unsigned long, unsigned long)#2}&gt;::_M_invoke(std::_Any_data const&amp;, unsigned long&amp;&amp;, std::_Any_data const&amp;)</fn>
       <dir>/usr/include/c++/9/bits</dir>
@@ -110,7 +110,7 @@
       <line>300</line>
     </frame>
     <frame>
-      <ip>0x4A0598D</ip>
+      <ip>0x4A054AD</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>std::function&lt;void (unsigned long, unsigned long)&gt;::operator()(unsigned long, unsigned long) const</fn>
       <dir>/usr/include/c++/9/bits</dir>
@@ -118,7 +118,7 @@
       <line>688</line>
     </frame>
     <frame>
-      <ip>0x4A032EB</ip>
+      <ip>0x4A02E0B</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>(anonymous namespace)::ParallelForSliceThread::run()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -126,7 +126,7 @@
       <line>694</line>
     </frame>
     <frame>
-      <ip>0x4A07665</ip>
+      <ip>0x4A07185</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>(anonymous namespace)::PThreadManager::run_thread(void*)</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -152,7 +152,7 @@
       <fn>operator new(unsigned long)</fn>
     </frame>
     <frame>
-      <ip>0x49F46A1</ip>
+      <ip>0x49F41D3</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>(anonymous namespace)::CERRStream::CERRStream()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -160,7 +160,7 @@
       <line>75</line>
     </frame>
     <frame>
-      <ip>0x49F66DC</ip>
+      <ip>0x49F620E</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>GEO::Logger::Logger()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -168,7 +168,7 @@
       <line>396</line>
     </frame>
     <frame>
-      <ip>0x49F584C</ip>
+      <ip>0x49F537E</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>GEO::Logger::initialize()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -176,7 +176,7 @@
       <line>226</line>
     </frame>
     <frame>
-      <ip>0x49A0B4B</ip>
+      <ip>0x49A0DE9</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>GEO::(anonymous namespace)::GeogramLibSingleton::GeogramLibSingleton(int)</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -184,7 +184,7 @@
       <line>104</line>
     </frame>
     <frame>
-      <ip>0x49A07A7</ip>
+      <ip>0x49A0A45</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>std::_Optional_payload_base&lt;GEO::(anonymous namespace)::GeogramLibSingleton&gt;::_Storage&lt;GEO::(anonymous namespace)::GeogramLibSingleton, false&gt;::_Storage&lt;int&amp;&gt;(std::in_place_t, int&amp;)</fn>
       <dir>/usr/include/c++/9</dir>
@@ -192,7 +192,7 @@
       <line>223</line>
     </frame>
     <frame>
-      <ip>0x49A07FE</ip>
+      <ip>0x49A0A9C</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>std::_Optional_payload_base&lt;GEO::(anonymous namespace)::GeogramLibSingleton&gt;::_Optional_payload_base&lt;int&amp;&gt;(std::in_place_t, int&amp;)</fn>
       <dir>/usr/include/c++/9</dir>
@@ -200,7 +200,7 @@
       <line>115</line>
     </frame>
     <frame>
-      <ip>0x49A0673</ip>
+      <ip>0x49A0911</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>std::_Optional_payload&lt;GEO::(anonymous namespace)::GeogramLibSingleton, true, false, false&gt;::_Optional_payload_base&lt;int&amp;&gt;(std::in_place_t, int&amp;)</fn>
       <dir>/usr/include/c++/9</dir>
@@ -208,7 +208,7 @@
       <line>356</line>
     </frame>
     <frame>
-      <ip>0x49A06FB</ip>
+      <ip>0x49A0999</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>std::_Optional_payload&lt;GEO::(anonymous namespace)::GeogramLibSingleton, false, false, false&gt;::_Optional_payload_base&lt;int&amp;&gt;(std::in_place_t, int&amp;)</fn>
       <dir>/usr/include/c++/9</dir>
@@ -216,7 +216,7 @@
       <line>390</line>
     </frame>
     <frame>
-      <ip>0x49A074E</ip>
+      <ip>0x49A09EC</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>std::_Optional_base&lt;GEO::(anonymous namespace)::GeogramLibSingleton, false, false&gt;::_Optional_base&lt;int&amp;, false&gt;(std::in_place_t, int&amp;)</fn>
       <dir>/usr/include/c++/9</dir>
@@ -224,7 +224,7 @@
       <line>482</line>
     </frame>
     <frame>
-      <ip>0x49A05E6</ip>
+      <ip>0x49A0884</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>std::optional&lt;GEO::(anonymous namespace)::GeogramLibSingleton&gt;::optional&lt;int&amp;, true&gt;(int&amp;)</fn>
       <dir>/usr/include/c++/9</dir>
@@ -232,7 +232,7 @@
       <line>699</line>
     </frame>
     <frame>
-      <ip>0x49A08C0</ip>
+      <ip>0x49A0B5E</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.9.2-rc</obj>
       <fn>GEO::(anonymous namespace)::GeogramLibSingleton::instance(int)</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
