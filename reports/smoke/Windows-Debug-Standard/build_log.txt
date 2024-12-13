@@ -751,8 +751,8 @@ MSBuild version 17.12.6+db5f6012c for .NET Framework
   clapack_slarnv.c
   clapack_slartg.c
   clapack_slaruv.c
-  clapack_slascl.c
   clapack_slaset.c
+  clapack_slascl.c
   clapack_slasr.c
   clapack_slasrt.c
   clapack_slassq.c
