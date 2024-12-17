@@ -995,7 +995,7 @@ namespace {
      * \brief Recomputes the width of the terminal
      */
     void update_ui_term_width() {
-#ifdef GEO_OS_EMSCRIPTEN
+#if defined(GEO_OS_EMSCRIPTEN) || defined(GEO_OS_WASI)
         return; // ioctl not implemented under emscripten
 #else
 #ifndef GEO_OS_WINDOWS

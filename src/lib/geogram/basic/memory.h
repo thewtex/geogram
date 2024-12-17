@@ -344,6 +344,8 @@ namespace GEO {
 #define geo_decl_aligned(var) __declspec(align(GEO_MEMORY_ALIGNMENT)) var
 #elif defined(GEO_COMPILER_EMSCRIPTEN)
 #define geo_decl_aligned(var) var
+#elif defined(GEO_COMPILER_WASI)
+#define geo_decl_aligned(var) var
 #endif
 
         /**
@@ -386,6 +388,8 @@ namespace GEO {
         // TODO: I do not know how to do that with MSVC
 #elif defined(GEO_COMPILER_EMSCRIPTEN)
 #define geo_assume_aligned(var, alignment)
+#elif defined(GEO_COMPILER_WASI)
+#define geo_assume_aligned(var, alignment)
 #elif defined(GEO_COMPILER_MINGW)
 #define geo_assume_aligned(var, alignment)
 #endif
@@ -407,6 +411,8 @@ namespace GEO {
 #elif defined(GEO_COMPILER_MSVC)
 #define geo_restrict __restrict
 #elif defined(GEO_COMPILER_EMSCRIPTEN)
+#define geo_restrict
+#elif defined(GEO_COMPILER_WASI)
 #define geo_restrict
 #endif
 

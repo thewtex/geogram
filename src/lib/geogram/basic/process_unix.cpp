@@ -63,7 +63,7 @@
 #include <stdio.h>
 #include <new>
 
-#if !defined(GEO_OS_ANDROID) && !defined(GEO_OS_EMSCRIPTEN)
+#if !defined(GEO_OS_ANDROID) && !defined(GEO_OS_EMSCRIPTEN) && !defined(GEO_OS_WASI)
 #include <execinfo.h>
 #endif
 
@@ -434,7 +434,7 @@ namespace GEO {
         }
 
         bool os_enable_FPE(bool flag) {
-#if defined(GEO_OS_APPLE) || defined(GEO_OS_EMSCRIPTEN)
+#if defined(GEO_OS_APPLE) || defined(GEO_OS_EMSCRIPTEN) || defined(GEO_OS_WASI)
             geo_argused(flag);
 #else
             int excepts = 0
@@ -519,7 +519,7 @@ namespace GEO {
         }
 
         void os_print_stack_trace() {
-#if !defined(GEO_OS_ANDROID) && !defined(GEO_OS_EMSCRIPTEN)
+#if !defined(GEO_OS_ANDROID) && !defined(GEO_OS_EMSCRIPTEN) && !defined(GEO_OS_WASI)
             constexpr int MAX_STACK_FRAMES=128;
             static void *stack_traces[MAX_STACK_FRAMES];
             int i, trace_size = 0;

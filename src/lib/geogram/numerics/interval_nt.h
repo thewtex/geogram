@@ -48,6 +48,7 @@
 
 #ifdef __SSE__
 #include <xmmintrin.h>
+#elif defined(__wasm_simd128__)
 #else
 #include <fenv.h>
 #endif
@@ -71,21 +72,26 @@ namespace GEO {
     class intervalBase {
     public:
 
-        static void set_FPU_round_to_nearest() {
+static void set_FPU_round_to_nearest() {
 #ifdef __SSE__
-            _MM_SET_ROUNDING_MODE(_MM_ROUND_NEAREST);
+    _MM_SET_ROUNDING_MODE(_MM_ROUND_NEAREST);
+#elif defined(__wasm_simd128__)
+    // WASM SIMD uses nearest rounding by default
 #else
-            fesetround(FE_TONEAREST);
+    fesetround(FE_TONEAREST);
 #endif
-        }
+}
 
-        static void set_FPU_round_to_upper() {
+static void set_FPU_round_to_upper() {
 #ifdef __SSE__
-            _MM_SET_ROUNDING_MODE(_MM_ROUND_UP);
+    _MM_SET_ROUNDING_MODE(_MM_ROUND_UP);
+#elif defined(__wasm_simd128__)
+    // WASM SIMD doesn't support changing rounding modes
+    // Consider using explicit rounding operations instead
 #else
-            fesetround(FE_UPWARD);
+    fesetround(FE_UPWARD);
 #endif
-        }
+}
 
         enum Sign2 {
             SIGN2_ERROR = -1,
