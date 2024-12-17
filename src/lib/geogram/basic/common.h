@@ -295,6 +295,17 @@ namespace GEO {
 #define GEO_COMPILER_EMSCRIPTEN
 #define GEO_COMPILER_CLANG
 
+// =============================== WASI defines  ======================
+
+#elif defined(__wasi__)
+
+#define GEO_OS_UNIX
+#define GEO_OS_LINUX
+#define GEO_OS_WASI
+#define GEO_ARCH_64
+#define GEO_COMPILER_WASI
+#define GEO_COMPILER_CLANG
+
 // =============================== Unsupported =============================
 #else
 #error "Unsupported operating system"
@@ -303,7 +314,8 @@ namespace GEO {
 #if defined(GEO_COMPILER_GCC)   ||              \
     defined(GEO_COMPILER_CLANG) ||              \
     defined(GEO_COMPILER_MINGW) ||              \
-    defined(GEO_COMPILER_EMSCRIPTEN)
+    defined(GEO_COMPILER_EMSCRIPTEN) ||         \
+    defined(GEO_COMPILER_WASI)
 #define GEO_COMPILER_GCC_FAMILY
 #endif
 

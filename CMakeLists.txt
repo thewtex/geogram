@@ -31,6 +31,18 @@ else()
 project(Geogram VERSION "${VORPALINE_VERSION_PLAIN}")
 endif()
 
+if (WASI)
+# Reset the warning level for third parties
+function(vor_reset_warning_level)
+    remove_definitions(${FULL_WARNINGS})
+    add_definitions(${NORMAL_WARNINGS})
+endfunction()
+
+macro(vor_add_executable)
+    add_executable(${ARGN})
+endmacro()
+endif()
+
 # Optional modules
 # (can be overriden in CMakeOptions.txt)
 

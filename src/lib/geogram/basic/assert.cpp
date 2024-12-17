@@ -55,7 +55,9 @@
 
 #ifndef GEO_OS_ANDROID
 #ifndef GEO_OS_EMSCRIPTEN
+#ifndef GEO_OS_WASI
 #include <execinfo.h>
+#endif
 #endif
 #endif
 
