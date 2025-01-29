@@ -349,7 +349,11 @@ namespace GEO {
         }
 
         void os_brute_force_kill() {
+#ifndef __wasi__
             kill(getpid(), SIGKILL);
+#else
+            abort();
+#endif
         }
 
         index_t os_number_of_cores() {
@@ -473,6 +477,7 @@ namespace GEO {
          * assertion, a runtime check or runtime error.
          */
         void os_install_signal_handlers() {
+#ifndef __wasi__
             // Install signal handlers
             signal(SIGSEGV, signal_handler);
             signal(SIGILL, signal_handler);
@@ -485,6 +490,7 @@ namespace GEO {
             sa.sa_sigaction = fpe_signal_handler;
             sigemptyset(&sa.sa_mask);
             sigaction(SIGFPE, &sa, &old_sa);
+#endif
 
             // Install uncaught c++ exception handlers
             std::set_terminate(terminate_handler);
