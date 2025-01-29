@@ -4,6 +4,7 @@
  */
 
 #include <geogram/third_party/zlib/gzguts.h>
+#include <geogram/third_party/zlib/zconf.h>
 
 #if defined(_WIN32) && !defined(__BORLANDC__)
 #  define LSEEK _lseeki64
