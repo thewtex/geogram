@@ -53,7 +53,9 @@
 #include <sys/ioctl.h>
 #include <stdio.h>
 #include <unistd.h>
+#ifndef __wasi__
 #include <termios.h>
+#endif
 #endif
 
 #ifdef GEO_OS_WINDOWS
