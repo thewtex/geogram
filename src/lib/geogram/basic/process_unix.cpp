@@ -79,7 +79,7 @@
 #include <emscripten/threading.h>
 #endif
 
-#ifndef GEO_TBB
+#if !defined(GEO_TBB) && !defined(__wasi__)
 #define GEO_USE_PTHREAD_MANAGER
 #endif
 
