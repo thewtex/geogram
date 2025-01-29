@@ -246,6 +246,7 @@ namespace {
         abnormal_program_termination(os.str().c_str());
     }
 
+#ifndef __wasi__
     /**
      * \brief Floating point error handler
      * \details The handler exits the application
@@ -295,6 +296,7 @@ namespace {
         os << "floating point exception detected: " << error;
         abnormal_program_termination(os.str().c_str());
     }
+#endif
 
     /**
      * \brief Interrupt signal handler
