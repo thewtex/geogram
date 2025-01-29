@@ -88,7 +88,9 @@ BufferedReadWriteFile::BufferedReadWriteFile( char* fileName , int bufferSize )
 #elif defined(__ANDROID__) 
 		android_mktemp( _fileName );
 		_fp = fopen(_fileName, "w+b");
-#else 
+#elif defined(__wasi__)
+		_fp = fopen(_fileName, "w+b");
+#else
 		_fp = fdopen( mkstemp( _fileName ) , "w+b" );
 #endif // _WIN32
 		tempFile = true;

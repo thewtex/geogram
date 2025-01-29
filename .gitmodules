@@ -10,7 +10,7 @@
 	branch = docking
 [submodule "src/lib/geogram/third_party/libMeshb"]
 	path = src/lib/geogram/third_party/libMeshb
-	url = https://github.com/LoicMarechal/libMeshb.git
+	url = https://github.com/thewtex/libMeshb.git
 [submodule "src/lib/geogram/third_party/rply"]
 	path = src/lib/geogram/third_party/rply
 	url = https://github.com/diegonehab/rply.git
