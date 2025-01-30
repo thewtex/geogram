@@ -33,8 +33,9 @@ set(FULL_WARNINGS
     -Wno-unused-but-set-variable
 )
 
-# Activate c++ 2017
-add_flags(CMAKE_CXX_FLAGS -std=c++17 -Wno-c++98-compat -Wno-gnu-zero-variadic-macro-arguments)
+# Activate c++ 20
+add_flags(CMAKE_CXX_FLAGS -D_WASI_EMULATED_PROCESS_CLOCKS -D_WASI_EMULATED_SIGNAL -std=c++20 -Wno-c++98-compat -Wno-gnu-zero-variadic-macro-arguments)
+add_flags(CMAKE_EXE_LINKER_FLAGS -lwasi-emulated-process-clocks -lwasi-emulated-signal)
 
 # Compile with full warnings by default
 add_definitions(${FULL_WARNINGS})
